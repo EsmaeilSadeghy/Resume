@@ -1,0 +1,61 @@
+.open{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Modal Styles */
+.modal {
+  display: block; /* به‌جای none */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* سایه برجسته‌تر */
+}
+
+/* Close Button Styles */
+.close {
+  color: #878787;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #f00; /* تغییر رنگ به قرمز هنگام هاور */
+}
+
+/* Style for form and input elements */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,32 @@
+/* Header Styles */
+.h_section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #f4f4f4; /* رنگ پس‌زمینه */
+  padding: 10px 0;
+  transition: all 0.3s ease; /* انیمیشن تغییرات */
+}
+
+.h_section h1 {
+  margin: 0;
+  font-size: 2rem; /* اندازه فونت عنوان */
+  color: #333; /* رنگ عنوان */
+}
+
+/* Profile Image Style */
+.profile-img {
+  width: 15vw;
+  height: 15vw;
+  margin: auto;
+  border-radius: 50%;
+}
+
+/* Sticky Header */
+.sticky {
+  position: fixed; /* موقعیت ثابت */
+  top: 0;
+  width: 100%;
+  z-index: 3; /* جلوتر از دیگر عناصر */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* سایه برای نمای بهتر */
+}

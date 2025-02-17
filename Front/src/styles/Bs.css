@@ -1,0 +1,30 @@
+.bg-image {
+  /* The image used */
+  background-image: url("../../public/footer.jpg");
+
+  /* Full height */
+  height: 450px;
+  margin: 30px 0;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* برای والد، موقعیت را به relative تغییر دهید */
+}
+
+.bg-text {
+  background-color: rgba(0, 0, 0, 0.4); /* رنگ پس‌زمینه با شفافیت */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  bottom: 50%; /* قرار دادن در وسط صفحه */
+  left: 50%; /* قرار دادن در وسط صفحه */
+  transform: translate(-50%, 50%); /* انتقال به وسط دقیق */
+  z-index: 2;
+  width: 70%;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}

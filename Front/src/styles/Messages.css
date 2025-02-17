@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.Logout {
+  margin: 0 45%;
+}
+
+table {
+  margin: 20px auto;
+  width: 80%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  color: #555;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}

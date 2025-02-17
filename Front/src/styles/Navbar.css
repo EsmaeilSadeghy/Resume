@@ -1,0 +1,83 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin: auto 10%;
+  color: white;
+  position: relative;
+}
+
+/* Navigation Menu */
+.nav-menu {
+  list-style-type: none; /* حذف نقاط لیست */
+  display: flex;
+  margin: 0;
+  padding: 0;
+  transition: max-height 0.3s ease-in-out; /* انیمیشن تغییر ارتفاع */
+}
+
+/* Hide Navigation Menu on Mobile */
+.nav-menu.hidden {
+  max-height: 0;
+  overflow: hidden;
+  display: none;
+}
+
+/* Navigation Links */
+.nav-menu li a {
+  color: white; /* رنگ لینک‌ها */
+  text-decoration: none; /* حذف خط زیر لینک */
+  font-size: 1rem;
+  transition: color 0.3s; /* انیمیشن تغییر رنگ */
+  padding: 5px;
+}
+
+.nav-menu li a:hover {
+  color: #ff6347; /* تغییر رنگ لینک هنگام هاور */
+}
+
+/* Hamburger Button */
+.menu-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 2px solid seagreen;
+}
+
+/* Responsive Styles for Navbar */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none; /* مخفی کردن لیست در موبایل */
+    flex-direction: column; /* ستون‌بندی در موبایل */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+  }
+
+  .nav-menu.show {
+    display: flex; /* نمایش لیست در هنگام باز شدن */
+  }
+
+  .nav-menu li {
+    margin: 10px 0; /* فاصله بین آیتم‌ها */
+    text-align: center; /* مرکز‌چینی متن */
+  }
+}
+
+@media (min-width: 769px) {
+  .nav-menu {
+    display: flex; /* نمایش منو به صورت افقی در صفحه‌های بزرگ */
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+
+  .menu-btn {
+    display: none; /* مخفی کردن دکمه همبرگری در صفحه‌های بزرگ */
+  }
+}

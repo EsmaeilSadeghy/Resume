@@ -1,0 +1,49 @@
+.resume {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* رنگ پس‌زمینه */
+  border-radius: 10px; /* گوشه‌های گرد */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* سایه */
+}
+
+.resume h2 {
+  margin-top: 40px;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #333; /* خط زیر عنوان */
+  padding-bottom: 10px;
+  color: #333; /* رنگ عنوان */
+}
+
+.resume ul {
+  list-style: none; /* حذف نقاط لیست */
+  padding: 0;
+}
+
+.resume li {
+  margin: 15px 5px; /* فاصله بین آیتم‌ها */
+  font-size: 1rem; /* اندازه متن */
+  color: #555; /* رنگ متن */
+  display: flex; /* برای آیکون و متن */
+  align-items: center; /* مرکز کردن عمودی */
+}
+
+.resume li i {
+  margin-left: 20px; /* فاصله بین آیکون و متن */
+  color: #007bff; /* رنگ آیکون */
+}
+
+/* استایل برای موبایل */
+@media (max-width: 768px) {
+  .resume {
+    padding: 15px; /* کاهش پدینگ در موبایل */
+  }
+
+  .resume h2 {
+    font-size: 1.5rem; /* کاهش اندازه عنوان */
+  }
+
+  .resume li {
+    font-size: 0.9rem; /* کاهش اندازه متن */
+  }
+}

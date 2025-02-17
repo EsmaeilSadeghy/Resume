@@ -1,0 +1,8 @@
+.parallax {
+  background-image: url("../../public/p.jpg"); /* تغییر به مسیر مناسب عکس شما */
+  height: 40vw;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

@@ -1,0 +1,49 @@
+/* استایل پایه برای Footer */
+.footer {
+  background-color: #333; /* رنگ پس‌زمینه */
+  color: #f1f1f1; /* رنگ متن */
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 20px;
+  min-width: 250px;
+}
+
+/* استایل عنوان‌ها در Footer */
+.footer-section h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #ff6347; /* رنگ عنوان‌ها */
+}
+
+/* استایل متن‌ها در Footer */
+.footer-section p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* استایل لینک‌های اجتماعی */
+.footer-section.social a {
+  color: #f1f1f1;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
